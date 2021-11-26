@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  
+<beans
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springfrawork.org/scheme/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+    <bean id="pBean1" class="com.xcs.Passenger">
+    	<constructor-arg value="Bahubali" type="String"></constructor-arg>
+    	<constructor-arg value="23" type="int"></constructor-arg>
+    	<constructor-arg value="M" type="char"></constructor-arg>
+    </bean>
+    <bean id="pBean2" class="com.xcs.Passenger">
+    	<constructor-arg value="Kishan lal" type="String"></constructor-arg>
+    	<constructor-arg value="43" type="int"></constructor-arg>
+    	<constructor-arg value="M" type="char"></constructor-arg>
+    </bean>
+    <bean id="pBean3" class="com.xcs.Passenger">
+    	<constructor-arg value="Alia" type="String"></constructor-arg>
+    	<constructor-arg value="22" type="int"></constructor-arg>
+    	<constructor-arg value="F" type="char"></constructor-arg>
+    </bean>
+    <bean id="pBean4" class="com.xcs.Passenger">
+    	<constructor-arg value="Karan" type="String"></constructor-arg>
+    	<constructor-arg value="49" type="int"></constructor-arg>
+    	<constructor-arg value="o" type="char"></constructor-arg>
+    </bean>
+</beans>

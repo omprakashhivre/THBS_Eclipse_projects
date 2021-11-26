@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springfrawork.org/scheme/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+   <bean id="trainBean1" class="XCs_Train.TrainTicket">
+    	<property name="counter">
+    		<value>100</value>
+    	</property>
+    	<property name="pnr">
+    		<value>AN_20211231_100</value>
+    	</property>
+    	<property name="traveldate">
+    		<value>22/12/2021</value>
+    	</property>
+    	<property name="passid">
+    		<value>4</value>
+    	</property>
+    	<property name="tno">
+    		<value>127006</value>
+    	</property>
+    </bean>
+    
+   <bean id="trainBean2" class="XCs_Train.TrainTicket">
+    	<property name="counter">
+    		<value>101</value>
+    	</property>
+    	<property name="pnr">
+    		<value>GH_20211229_101</value>
+    	</property>
+    	<property name="traveldate">
+    		<value>02/12/2021</value>
+    	</property>
+    	<property name="passid">
+    		<value>8</value>
+    	</property>
+    	<property name="tno">
+    		<value>127000</value>
+    	</property>
+    </bean>
+    
+   <bean id="trainBean3" class="XCs_Train.TrainTicket">
+    	<property name="counter">
+    		<value>103</value>
+    	</property>
+    	<property name="pnr">
+    		<value>MK_20220617_103</value>
+    	</property>
+    	<property name="traveldate">
+    		<value>27/06/2022</value>
+    	</property>
+    	<property name="passid">
+    		<value>7</value>
+    	</property>
+    	<property name="tno">
+    		<value>127789</value>
+    	</property>
+    </bean>
+</beans>
